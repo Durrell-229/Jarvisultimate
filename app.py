@@ -13,7 +13,7 @@ import subprocess
 from datetime import datetime
 import re
 
-app = Flask(__name__, static_folder='../frontend', static_url_path='')
+app = Flask(__name__, static_folder='/frontend', static_url_path='')
 CORS(app)
 
 # Initialisation des modules
